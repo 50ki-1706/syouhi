@@ -17,7 +17,7 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "syouhi",
+      "name": "index",
       "title": "syouhi",
       "subtitle": "syohi",
       "description": "Show AI tool usage.",
