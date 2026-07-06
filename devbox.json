@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "nodejs": "26",
+    "corepack": ""
+  },
+  "shell": {
+    "init_hook": ["corepack enable --install-directory \"$DEVBOX_PROJECT_ROOT/.devbox/virtenv/runx/bin\""]
+  }
+}
