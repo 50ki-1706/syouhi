@@ -1,8 +1,11 @@
 {
-  "packages": {
-    "nodejs": "26",
-    "corepack": ""
-  },
+  "packages": [
+    "nodejs@26",
+    "corepack",
+    "typescript-language-server",
+    "typescript",
+    "vscode-langservers-extracted"
+  ],
   "shell": {
     "init_hook": ["corepack enable --install-directory \"$DEVBOX_PROJECT_ROOT/.devbox/virtenv/runx/bin\""]
   }

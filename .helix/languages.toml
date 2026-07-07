@@ -1,0 +1,11 @@
+# TypeScript / TSX の LSP 設定
+# JSON / JSONC は Helix 組み込みで vscode-json-language-server を利用するため、ここでは追加しない
+# フォーマットは oxfmt の標準入力フラグが不明確なため、Helix 側では設定せず pnpm run fix-lint を使う
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server"]
+
+[[language]]
+name = "tsx"
+language-servers = ["typescript-language-server"]
